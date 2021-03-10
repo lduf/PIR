@@ -152,7 +152,7 @@ On discrimine alors notre dataset selon les variables possibles de l'attribut.
 
 En décidant de se baser sur le Gain pour le choix de l'attribut, on obtient l'arbre de décision suivant :
 
-![Arbre de décision](/img/articles/article1/arbre_de_decision.png)
+![Arbre de décision](../../img/articles/article1/arbre_de_decision.png)
 
 > Source : [sefiks.com](https://sefiks.com/2018/05/13/a-step-by-step-c4-5-decision-tree-example/)
 
