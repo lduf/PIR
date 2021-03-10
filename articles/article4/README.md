@@ -1,6 +1,7 @@
 # Article 4 : comparaison des caractéristiques de texture basées sur les filtres de Gabor
 
 > [Lien vers l'article](4_Texture_1999ProcICIAPKruizinga.pdf)
+> 
 > **But**: Trouver quel filtre traite le mieux les textures.
 Les caractéristiques suivantes ont été comparées :
 - les caractéristiques linéaires de Gabor (symétriques et antisymétriques)
