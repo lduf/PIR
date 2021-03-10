@@ -57,20 +57,35 @@ Un peu de maths :
 Ici d est la decision
 
 Entropie de la source : 
+
+
 $$
 E_{dataSet}(d) = \sum p(d).log_2({1\over p(d)})
 $$
+
+
 Gain :
+
+
 $$
 G(d, variable) = E_{dataSet} - \sum p(variable)*E(d|variable)
 $$
+
+
 Split Info :
+
+
 $$
 SplitInfo(A) =  \sum {|D_i|\over |D|}.log_2({|D| \over |D_i|})
 $$
 
 
+
 Gain Ratio :
+
+
+
+
 $$
 GainRatio(A) = {Gain(A) \over SplitInfo(A)}
 $$
@@ -100,18 +115,28 @@ L'exemple ci-dessous est une recopie du site [sefiks.com](https://sefiks.com/201
 | 14   | Rain     | 71    | 80       | Strong | No       |
 
 On remarque que :
+
+
 $$
 p(Yes) = {9\over 14} \ ; \ p(No) = {5\over 14}
 $$
+
+
 On peut calculer l'entropie globale du dataset :
+
+
 $$
 E(d) = \sum p(d).log_2({1\over p(d)}) \\ =p(Yes).log_2({1\over p(Yes)})+p(No).log_2({1\over p(No)}) \\ = 0.940
 $$
+
+
 Par la suite, on calcule l'entropie en utilisant les catégories :
 
 *Exemple avec le vent :*
 
-Il n'y a que 2 possibilités : soit le vent est *Weak* soit il est *Strong*, on note W le vent et we pour Weak et st pour strong
+Il n'y a que 2 possibilités : soit le vent est *Weak* soit il est *Strong*, on note W le vent et we pour Weak et st pour strong  
+
+
 $$
 E(d | W=we) = p(Yes|W=we).log_2({1\over p(Yes|W=we)})+p(No|W=we).log_2({1\over p(No|W=we)}) \\ = {2 \over 8}.log_2({8 \over 2})+{6 \over 8}.log_2({8 \over 6}) =0.811
 \\
@@ -120,14 +145,22 @@ E(d | W=st) = p(Yes|W=st).log_2({1\over p(Yes|W=st)})+p(No|W=st).log_2({1\over p
 $$
 
 
-On peut maintenant calculer le gain pour l'attribut *Wind* 
+
+On peut maintenant calculer le gain pour l'attribut *Wind* :
+
+
 $$
 G(d, W) = 0.940 - ({8 \over 14}.0.811+{6 \over 14}.1)=0.049
 $$
+
+
 Enfin on calcule le GainRatio :
+
+
 $$
 GainRatio(d, W) = {8 \over 14}log_2({14 \over 8}) +{6 \over 14}log_2({14 \over 6}) = 0.049
 $$
+
 
 
 On peut suivre la même démarche pour *Outlook* puisque ce champ comporte 3 variables possibles : *Sunny*, *Overcast* ou *Rain*.
