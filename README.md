@@ -12,7 +12,7 @@
 > - [Article 1](/articles/article1/1_NN_Sulc_Fungi_Recognition_A_Practical_Use_Case_WACV_2020_paper.pdf)
 > - [Article 2](/articles/article2/2_NN_Mushroom_Images_Identification_Using_Orde_1_Statis.pdf)
 > - [Article 3](/articles/article3/3_Compare_Prosiding-ICOIACT-Yogja.pdf)
-> - [Article 4](/articles/article3/4_Texture _1999ProcICIAPKruizinga.pdf)
+> - [Article 4](/articles/article4/4_Texture _1999ProcICIAPKruizinga.pdf) 
 > - [Artcile 5](/articles/article5/5_forme_ARS-Journal-SurveyPatternRecognition.pdf)
 
 
