@@ -30,7 +30,19 @@ L'algorithme **C4.5** est le plus fiable et le plus rapide.
 
 ### C4.5 :
 
+#### Vu par l'article :
 
+L'article nous apprend que le C4.5 est l'algorithme le plus efficace. Il fonctionne sous forme d'arbre de décision, on peut donc récupérer les catégories de triage les plus importantes selon l'algorithme :
+
+- Odor
+- Sport-print-color
+- Gill-size
+- Gill-spacing
+- Population
+
+#### Recherches complémentaires :
+
+Cet algorithme est basé sur [l'algorithme ID3](https://fr.wikipedia.org/wiki/Algorithme_ID3)
 
 ### Naive Bayes :
 
