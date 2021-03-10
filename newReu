@@ -6,3 +6,10 @@ touch CR_reu/$year$month$day.md
 sed -ie '/<!-- new reu -->/a\
 > - [Réu du '"$day"'-'"$month"'-'"$year"'](/CR_reu/'"$year$month$day"'.md)  
 ' README.md 
+if [[ $# -gt 0 ]]
+  then
+  if [[ $1 == "-o" ]]
+  then
+	open CR_reu/$year$month$day.md
+  fi
+fi
