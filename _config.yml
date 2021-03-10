@@ -2,3 +2,5 @@ theme: jekyll-theme-slate
 title: Suivi du projet PIR 11
 description: Le site regroupe l'essentiel du suivi du projet PIR
 
+<!-- MathJax -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script>
