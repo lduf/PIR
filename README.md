@@ -11,7 +11,7 @@
 > Accède ici aux articles étudiés
 > - [Article 1](/articles/article1/README.md)
 > - [Article 2](/articles/article2/README.md)
-> - [Article 3](/articles/article3/README/md)
+> - [Article 3](/articles/article3/README.md)
 > - [Article 4](/articles/article4/README.md) 
 > - [Artcile 5](/articles/article5/README.md)
 
