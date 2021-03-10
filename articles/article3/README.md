@@ -42,7 +42,7 @@ L'article nous apprend que le C4.5 est l'algorithme le plus efficace. Il fonctio
 
 #### Recherches complémentaires :
 
-Cet algorithme est basé sur [l'algorithme ID3](https://fr.wikipedia.org/wiki/Algorithme_ID3)
+Cet algorithme est basé sur [l'algorithme ID3](ID3.md)
 
 ### Naive Bayes :
 
