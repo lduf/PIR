@@ -1,0 +1,8 @@
+# /bin/bash
+year=$(date +"%y")
+month=$(date +"%m")
+day=$(date +"%d")
+touch CR_reu/$year$month$day.md
+sed -ie '/<!-- new reu -->/a\
+> - [Réu du '"$day"'-'"$month"'-'"$year"'](/CR_reu/'"$year$month$day"'.md)  
+' README.md 
