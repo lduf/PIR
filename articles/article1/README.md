@@ -2,4 +2,3 @@
 
 > [Lien vers l'article](1_NN_Sulc_Fungi_Recognition_A_Practical_Use_Case_WACV_2020_paper.pdf)
 
-$$\sum a.log_2(f)$$
