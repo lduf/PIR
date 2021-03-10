@@ -42,7 +42,12 @@ L'article nous apprend que le C4.5 est l'algorithme le plus efficace. Il fonctio
 
 #### Recherches complémentaires :
 
-Cet algorithme est basé sur [l'algorithme ID3](ID3.md)
+Cet algorithme est basé sur [l'algorithme ID3](ID3.md) et améliore ce dernier.  
+Une mise à jour de cet algorithme (C5.0) permet d'améliorer entre autre la rapidité d'exécution.
+
+**Fonctionnement :**
+
+À partir d'une variable objectif (**variable prédite Y**) et de variable d'apprentissage (variables prédictives X). L'algorithme se base sue une mesure de l'entropie (cf Shannon) pour poduire un modèle.
 
 ### Naive Bayes :
 
@@ -50,3 +55,8 @@ Cet algorithme est basé sur [l'algorithme ID3](ID3.md)
 
 ### Support Vector Machine (SVM) :
 
+
+
+## Ressources à étudier :
+
+[] [Exemple sur C4.5](https://sefiks.com/2018/05/13/a-step-by-step-c4-5-decision-tree-example/)
