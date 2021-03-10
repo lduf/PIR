@@ -1,5 +1,4 @@
-
-
+{% include_relative ../../_includes/MathJax.html %}
 # Article 3 : Algorithmes pour identifer les champignons comestibles
 
 > [Lien vers l'article](3_Compare_Prosiding-ICOIACT-Yogja.pdf)
