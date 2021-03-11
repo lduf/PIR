@@ -7,7 +7,8 @@ Les caractéristiques suivantes ont été comparées :
 - les caractéristiques linéaires de Gabor (symétriques et antisymétriques)
 - les caractéristiques seuil de Gabor (symétriques et antisymétriques)
 - les caractéristiques d'énergie de Gabor
-- les caractéristiques de moments complexes et les caractéristiques de cellule de réseau (grating cell operator). 
+- les caractéristiques de moments complexes 
+- les caractéristiques de cellule de réseau (grating cell operator). 
 
 Pour évaluer les propriétés de discrimination des différentes caractéristiques, une méthode quantitative a été utilisée, basée sur le critère de Fisher et le discriminant linéaire de Fisher.
 
