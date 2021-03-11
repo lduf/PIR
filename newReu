@@ -13,3 +13,4 @@ if [[ $# -gt 0 ]]
 	open CR_reu/$year$month$day.md
   fi
 fi
+rm README.mde
