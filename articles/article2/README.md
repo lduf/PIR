@@ -10,7 +10,7 @@
 - Méthode de feature extraction utilisant des stats d'odre 1
 - Backpropagration training: base du deep learning, permet d'apprendre
 
-**Conclusion:** La précision du système de reconnaissance d'image est fortement influencée par les parametres internes du réseau de neurones comme le nombre d'hidden layer, dez neurones etc. 
-Le plus haut taux de précision atteint ici est de 93% ce qui est tres satisfaisant.
+**Conclusion:** La précision du système de reconnaissance d'image est fortement influencée par les parametres internes du réseau de neurones comme le nombre d'hidden layer, dez neurones etc.   
+Le plus haut taux de précision atteint ici est de 93% ce qui est tres satisfaisant.  
 Pour aller plus loin dans les recherches on pourrait essayer en couleur par exemple.
 
