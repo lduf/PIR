@@ -13,5 +13,5 @@
 > - [Article 1](/articles/article1/README.md)
 > - [Article 2](/articles/article2/README.md)
 > - [Article 3 : Algorithmes pour identifer les champignons comestibles](/articles/article3/README.md)
-> - [Article 4](/articles/article4/README.md) 
+> - [Article 4 : Comparaison des caractéristiques de texture basées sur les filtres de Gabor](/articles/article4/README.md) 
 > - [Artcile 5](/articles/article5/README.md)
