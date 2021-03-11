@@ -1,0 +1,10 @@
+# /bin/bash
+file_path=$(sed 's/ /_/g' <<< "$1")
+touch2 $file_path/README.md
+sed -ies '/<!-- new section -->/i\
+{
+## '"$1"' 
+> - '"$1"'
+> - ['"$1"'](/'"$file_path"'/README.md)  
+};
+' README.md 
