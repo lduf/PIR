@@ -5,7 +5,7 @@
 **But:** Identifier l'espece d'un champignon. La reconnaissance de pattern est facile pour les humains mais peu pour les ordinateurs, on utilise donc un réseau de neurones artificiels (permet d'apprendre par l'entrainement).
 
 **Méthode:**
-- Images converties en teinte de gris: pour la reconnaissance de pattern 
+- Images converties en teinte de gris pour la reconnaissance de pattern 
 - Database divisée en deux: une partie pour apprendre, une partie pour tester
 - Méthode de feature extraction utilisant des stats d'odre 1
 - Backpropagration training: base du deep learning, permet d'apprendre
