@@ -16,3 +16,8 @@
 > - [Article 3 : Algorithmes pour identifer les champignons comestibles](/articles/article3/README.md)
 > - [Article 4 : Comparaison des caractéristiques de texture basées sur les filtres de Gabor](/articles/article4/README.md) 
 > - [Artcile 5](/articles/article5/README.md)
+
+## Recherches sur les réseaux de neurones
+
+> Nos recherches sur les réseaux de neurones :
+> - [Réseau de neurone](/reseau_de_neurone/README.md)
