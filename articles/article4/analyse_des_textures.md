@@ -4,6 +4,7 @@ L'analyse de texture fait référence à la caractérisation des régions d'une 
 
 ### Fonctions matlab:
 | entropy      | Entropy of grayscale image                        |
+|--------------|---------------------------------------------------|
 | entropyfilt  | Local entropy of grayscale image                  |
 | rangefilt    | Local range of image                              |
 | stdfilt      | Local standard deviation of image                 |
