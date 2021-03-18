@@ -14,3 +14,10 @@ L'analyse de texture fait référence à la caractérisation des régions d'une 
 
 
 https://fr.mathworks.com/help/images/texture-analysis-1.html#:~:text=Texture%20analysis%20refers%20to%20the,spatial%20variation%20in%20pixel%20intensities.
+
+## Avec python:
+On utilise en général LBP: le Local Binary Pattern. C'est un opérateur de texture simple mais très efficace qui étiquette les pixels d'une image en seuillant le voisinage de chaque pixel et considère le résultat comme un nombre binaire.
+![alt text](http://www.scholarpedia.org/w/images/thumb/7/77/LBP.jpg/400px-LBP.jpg)
+
+https://www.youtube.com/watch?v=_5ktOnEZ3O4
+http://www.scholarpedia.org/article/Local_Binary_Patterns#:~:text=Local%20Binary%20Pattern%20(LBP)%20is,result%20as%20a%20binary%20number.
