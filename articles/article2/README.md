@@ -14,3 +14,10 @@
 Le plus haut taux de précision atteint ici est de 93% ce qui est tres satisfaisant.  
 Pour aller plus loin dans les recherches on pourrait essayer en couleur par exemple.
 
+**19/03/2021: Feature Extraction**
+Feature extraction (extraction de caractéristiques)
+Caractéristiques : but = donner des informations non redondantes pour faciliter l’apprentissage du réseau de neurones.
+Utilisé quand la taille des datas d’entrée est trop grande pour être efficace (cf. pattern la semaine dernière) ou trop redondante (par ex : pixel d'une image)
+Suppositions caractéristiques champignons : pied, chapeau, lamelles/pores, silhouette ?
+
+Pour étudier ces caractéristiques, Article : stats d’ordre, utilise probabilité de la présence de certaines valeurs de degré de gris dans une zone de l’image. L’histogramme de l’image. Ensuite de ces valeurs, calcul de stats d’ordre 1 : moyenne, skewness (l’asymétrie), variance, kurtosis (aplatissement), entropie
