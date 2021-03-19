@@ -25,3 +25,4 @@ L'idée de base pour le développement de l'opérateur LBP était que les textur
 https://www.youtube.com/watch?v=_5ktOnEZ3O4
 https://github.com/maponti/imageprocessing_course_icmc/blob/master/07b_texture_descriptors.ipynb
 http://www.scholarpedia.org/article/Local_Binary_Patterns#:~:text=Local%20Binary%20Pattern%20(LBP)%20is,result%20as%20a%20binary%20number.
+https://www.geeksforgeeks.org/create-local-binary-pattern-of-an-image-using-opencv-python/#:~:text=Local%20Binary%20Pattern%2C%20also%20known,value%20of%20the%20centre%20pixel.
