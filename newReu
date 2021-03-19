@@ -14,3 +14,8 @@ if [[ $# -gt 0 ]]
   fi
 fi
 rm README.mde
+git pull
+git add *
+git commit -m "Ajout des fichiers pour la réunion du jour" .
+git pull
+git push
