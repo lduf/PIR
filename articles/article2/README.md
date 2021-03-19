@@ -14,7 +14,7 @@
 Le plus haut taux de précision atteint ici est de 93% ce qui est tres satisfaisant.  
 Pour aller plus loin dans les recherches on pourrait essayer en couleur par exemple.
 
-**11/03/2021: Réseau de neurones** voir réseau de neurones :
+**11/03/2021: Réseau de neurones** voir réseau de neurones : https://github.com/lduf/PIR/tree/main/reseau_de_neurone  
 
 **19/03/2021: Feature Extraction**  
 Feature extraction (extraction de caractéristiques)  
