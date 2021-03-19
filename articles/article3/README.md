@@ -191,6 +191,66 @@ En décidant de se baser sur le Gain pour le choix de l'attribut, on obtient l'a
 
 > Source : [sefiks.com](https://sefiks.com/2018/05/13/a-step-by-step-c4-5-decision-tree-example/)
 
+### Travail sur C4.5
+
+Reprenons l'algorithme C4.5 sous python avec le même dataset d'étudié dans l'article.
+
+Voici la réponse de l'algorithme :
+
+```
+                      feature  importance
+4                        odor    0.908309
+19          spore-print-color    0.062194
+7                   gill-size    0.013199
+6                gill-spacing    0.008099
+3                     bruises    0.004500
+16                 veil-color    0.003700
+0                   cap-shape    0.000000
+13     stalk-color-above-ring    0.000000
+20                 population    0.000000
+18                  ring-type    0.000000
+17                ring-number    0.000000
+15                  viel-type    0.000000
+14    stalk-color-bellow-ring    0.000000
+11   stalk-surface-above-ring    0.000000
+12  stalk-surface-bellow-ring    0.000000
+1                 cap-surface    0.000000
+10                 stalk-root    0.000000
+9                 stalk-shape    0.000000
+8                  gill-color    0.000000
+5            gill-attachement    0.000000
+2                   cap-color    0.000000
+21                    habitat    0.000000
+```
+
+On remarque que le critère de l'odeur est très important (90%); pas très pratique pour de la reconnaissance d'image … Je relance l'algorithme en gardant uniquement les critères utiles pour de la reconnaissance d'image.
+
+```
+                      feature  importance
+17                  ring-type    1.578184
+6                   gill-size    1.150070
+18          spore-print-color    0.490902
+9                  stalk-root    0.057588
+3                     bruises    0.025195
+0                   cap-shape    0.000000
+11  stalk-surface-bellow-ring    0.000000
+15                 veil-color    0.000000
+14                  viel-type    0.000000
+13    stalk-color-bellow-ring    0.000000
+12     stalk-color-above-ring    0.000000
+8                 stalk-shape    0.000000
+1                 cap-surface    0.000000
+7                  gill-color    0.000000
+4            gill-attachement    0.000000
+2                   cap-color    0.000000
+16                ring-number    0.000000
+10   stalk-surface-above-ring   -0.054189
+5                gill-spacing   -0.794041
+19                 population   -1.453709
+```
+
+
+
 ### Naive Bayes :
 
 Probabilité 
