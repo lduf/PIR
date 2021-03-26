@@ -3,22 +3,28 @@ year=$(date +"%y")
 month=$(date +"%m")
 day=$(date +"%d")
 echo "# Réu du $day/$month
-**Jules**
+**Jules :**
 
 
-**Nina**
+**Nina :**
 
-**Jade**
 
-**Pierre**
+**Jade :**
 
-**Lucas**
 
-##TODO
+**Pierre :**
 
-## Prochaine réu :
+
+**Lucas :**
+
+
+## TODO
+
+
+#### Prochaine réu :
 
 Prochaine réu le : 
+
 " > CR_reu/$year$month$day.md
 sed -ie '/<!-- new reu -->/a\
 > - [Réu du '"$day"'-'"$month"'-'"$year"'](/CR_reu/'"$year$month$day"'.md)  
