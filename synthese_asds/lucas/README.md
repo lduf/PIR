@@ -1,4 +1,4 @@
 # Synthèse ASDS
 
-[Lien vers la synthèse (Lucas)](lucas_dufour.pdf)
+[Lien vers la synthèse (Lucas)](dufour_lucas.pdf)
 
