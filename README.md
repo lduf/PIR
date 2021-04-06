@@ -22,4 +22,12 @@
 ## Recherches sur les réseaux de neurones
 
 > Nos recherches sur les réseaux de neurones :
+>
 > - [Réseau de neurone](/reseau_de_neurone/README.md)
+
+# Synthèses ASDS
+
+> Accède ici aux synthèses ASDS
+>
+> - [Lucas](synthese_asds/lucas/README.md)
+
