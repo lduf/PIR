@@ -38,7 +38,7 @@ if [[ $# -gt 0 ]]
 fi
 rm README.mde
 git pull
-git add *
+git add CR_reu/$year$month$day.md
 git commit -m "Ajout des fichiers pour la réunion du jour" .
 git pull
 git push
