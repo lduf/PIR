@@ -4,6 +4,7 @@
 
 > Ici on a accès aux CR de nos différentes réunions
 <!-- new reu -->
+> - [Réu du 04-06-21](/CR_reu/210604.md)  
 > - [Réu du 26-05-21](/CR_reu/210526.md)  
 > - [Réu du 12-05-21](/CR_reu/210512.md)  
 > - [Réu du 29-04-21](/CR_reu/210429.md)  
